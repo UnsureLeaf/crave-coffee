@@ -1,1 +1,130 @@
-heck
+* {
+	color: white;
+}
+div.background {
+	background: url(body-table-2.jpg);
+	padding: 0;
+	margin: 0;
+}
+header {
+	position: fixed;
+	background-color: #000001;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+    box-shadow: 10px 10px 5px #414141 blur;
+}
+header ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: -40px;
+}
+header ul li { 
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 20px;
+	
+}
+
+div.hd-img {
+	display: inline-block;
+	width: 10%;
+	text-align: left;
+}
+
+div.hd-img img {
+	height: 40%;
+	width: 40%;
+}
+ 
+div.hd-li {
+	display: inline-block;
+	width: 89%;
+	text-align: left;
+	text-decoration: none;
+}
+div.home-content {
+	background-color: #424242;
+	position: relative;
+	top: 45px;
+	left: 0px;
+	z-index: -1;
+	margin: 0%;
+	padding: 0%;
+	width: 100%;
+	height: 605px;
+}
+div.home-content img {
+	width: 34%;
+	float: center;
+}
+div.home-content h1 {
+	float: right;
+	margin-right: 2px;
+}
+div.home-content p {
+	float: right;
+	position: relative;
+	top: 40px;
+	left: 548px;
+	font-weight: bold;
+}
+div.about-content {
+	background-color: #424242;
+	position: relative;
+	top: 45px;
+	left: 0px;
+	z-index: -1;
+	margin: 0%;
+	padding: 0%;
+	width: 100%;
+	height: 666px;
+}
+div.about-content h1 {
+	text-align: center;
+}
+div.about-content p {
+	text-align: center;
+}
+div.about-content img.table-1 {
+	width: 49%;
+	padding: 0.5%
+}
+div.about-content img.table-2 {
+	width: 49%;
+	position: relative;
+	bottom: 6.5px;
+}
+div.location-content {
+	background-color: #424242;
+	position: relative;
+	top: 45px;
+}
+div.menu-content {
+	background-color: #424242;
+	position: relative;
+	top: 45px;
+	text-align: center;
+}
+div.menu-content img.coffee {
+	float: left;
+	width: 15%;
+	position: relative;
+	left: 10px;
+}
+div.menu-content img.complete {
+	float: left;
+	width: 20%;
+	position: relative;
+	left: 5px;
+}
+div.menu-content h1 {
+	position: relative;
+	left: 230px;
+	width: 100%;
+	overflow-x: hidden;
+}
